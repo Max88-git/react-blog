@@ -23,8 +23,6 @@ const Create = () => {
       setIsPending(false);
       history.push('/');
     })
-
-    
   }
 
   return (

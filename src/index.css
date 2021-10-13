@@ -118,3 +118,38 @@
   border-radius: 8px;
   cursor: pointer;
 }
+
+/* 404 error page */
+.not-found {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.not-found h1 {
+  font-size: 100px;
+}
+
+.not-found h2 {
+  font-size: 20px;
+  color: #ef233c;
+  margin-bottom: 20px;
+}
+
+.not-found p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.not-found button {
+  background: #ef233c;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.not-found button a {
+  color: #fff;
+  text-decoration: none;
+}

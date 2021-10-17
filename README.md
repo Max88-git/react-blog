@@ -1,10 +1,45 @@
-# Getting Started with Create React App
+# React Blog
+
+> A mini blog, where you can list different articles, you can delete articles and add new articles to the home page. I used React because I wanted to learn more about the fundamentals like the setup, JSX templates, components & events. And I also wanted to cover state & the use of hooks and React Router.
+
+## Table of contents
+
+- [General info](#general-info)
+- [Screenshots](#screenshots)
+- [Technologies](#technologies)
+- [Setup](#setup)
+- [Features](#features)
+- [Status](#status)
+- [Inspiration](#inspiration)
+- [Contact](#contact)
+
+## General info
+
+To learn about components, templates, state, props, react router, how to fetch data and how to use react hooks like useState, useEffect and also make a custom hook called useFetch.
+
+## Screenshots
+
+Below is what you should see when you run the project.
+
+![Example screenshot](./img/screenshot.png)
+
+## Technologies
+
+- HTML5
+- CSS3
+- JavaScript
+- React - 17.0.2
+- JSON Server
+
+## Setup
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
 In the project directory, you can run:
+
+### `npx json-server --watch data/db.json --port 8000`
+
+Load data/db,json file. This is our JSON server for our blogs data.
 
 ### `npm start`
 
@@ -16,55 +51,31 @@ You will also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in the interactive watch mode.
+See the section about running tests for more information.
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+List of features ready
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Preview a list of blogs in the Homepage, showing titles and author.
+- Create a new blog post and make a post request to json server to add that data to our data file.
+- Delete existing posts and redirect the user back to the Homepage.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To-do list:
 
-### `npm run eject`
+- Add post date and time
+- Add an image field to the form
+- A way to update exisiting posts
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Status
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Project is: _in progress_ I am hoping to add new features to this project in the future.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Inspiration
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Credit @iamshaunjp. Project based on studying [Full Modern React Tutorial](https://github.com/iamshaunjp/Complete-React-Tutorial)
 
-## Learn More
+## Contact
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Created by [@Max88-git](mlockwood@hotmail.co.uk/) - feel free to contact me!
